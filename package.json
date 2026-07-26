@@ -10,7 +10,9 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "catalogo": "node scripts/generate-index.mjs",
-    "test": "node scripts/generate-index.mjs && tsc --noEmit && node scripts/smoke-test.mjs"
+    "test": "node scripts/generate-index.mjs && tsc --noEmit && node scripts/smoke-test.mjs && node scripts/golden-test.mjs && node scripts/regression-test.mjs",
+    "test:referencias": "node scripts/check-references.mjs",
+    "instantaneo": "node scripts/regression-test.mjs --atualizar"
   },
   "dependencies": {
     "next": "^15.5.21",

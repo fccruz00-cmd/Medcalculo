@@ -1,0 +1,195 @@
+[
+  {
+    "slug": "cha2ds2-vasc",
+    "descricao": "Homem de 60 anos sem comorbidades: escore mínimo",
+    "entrada": { "idade": 0, "sexo": 0, "icc": 0, "hipertensao": 0, "diabetes": 0, "avc": 0, "vascular": 0 },
+    "esperado": { "valor": 0, "rotulo": "Anticoagulação não indicada" }
+  },
+  {
+    "slug": "cha2ds2-vasc",
+    "descricao": "Mulher de 78 anos com IC, HAS, DM, AVC prévio e doença vascular: 2+1+1+1+1+2+1 = 9",
+    "entrada": { "idade": 2, "sexo": 1, "icc": 1, "hipertensao": 1, "diabetes": 1, "avc": 2, "vascular": 1 },
+    "esperado": { "valor": 9, "rotulo": "Anticoagulação recomendada" }
+  },
+  {
+    "slug": "cha2ds2-vasc",
+    "descricao": "Homem de 70 anos com HAS e DM: 1+1+1 = 3",
+    "entrada": { "idade": 1, "sexo": 0, "icc": 0, "hipertensao": 1, "diabetes": 1, "avc": 0, "vascular": 0 },
+    "esperado": { "valor": 3 }
+  },
+  {
+    "slug": "cha2ds2-vasc",
+    "descricao": "Mulher sem outros fatores: o ponto do sexo isolado não indica anticoagulação",
+    "entrada": { "idade": 0, "sexo": 1, "icc": 0, "hipertensao": 0, "diabetes": 0, "avc": 0, "vascular": 0 },
+    "esperado": { "valor": 1, "rotulo": "Anticoagulação não indicada" }
+  },
+
+  {
+    "slug": "curb-65",
+    "descricao": "Nenhum critério presente",
+    "entrada": { "confusao": 0, "ureia": 0, "fr": 0, "pa": 0, "idade": 0 },
+    "esperado": { "valor": 0, "rotulo": "Risco baixo" }
+  },
+  {
+    "slug": "curb-65",
+    "descricao": "Todos os cinco critérios presentes",
+    "entrada": { "confusao": 1, "ureia": 1, "fr": 1, "pa": 1, "idade": 1 },
+    "esperado": { "valor": 5, "rotulo": "Risco muito alto" }
+  },
+  {
+    "slug": "curb-65",
+    "descricao": "Confusão e idade acima de 65: 2 pontos, faixa intermediária",
+    "entrada": { "confusao": 1, "ureia": 0, "fr": 0, "pa": 0, "idade": 1 },
+    "esperado": { "valor": 2, "rotulo": "Risco intermediário" }
+  },
+
+  {
+    "slug": "escala-coma-glasgow",
+    "descricao": "Paciente alerta e orientado: 4+5+6 = 15",
+    "entrada": { "ocular": 4, "verbal": 5, "motora": 6, "pupilas": 0 },
+    "esperado": { "valor": 15 }
+  },
+  {
+    "slug": "escala-coma-glasgow",
+    "descricao": "Sem resposta em nenhum domínio: 1+1+1 = 3, o mínimo possível",
+    "entrada": { "ocular": 1, "verbal": 1, "motora": 1, "pupilas": 0 },
+    "esperado": { "valor": 3 }
+  },
+  {
+    "slug": "escala-coma-glasgow",
+    "descricao": "Abre ao chamado, confuso, localiza dor: 3+4+5 = 12",
+    "entrada": { "ocular": 3, "verbal": 4, "motora": 5, "pupilas": 0 },
+    "esperado": { "valor": 12 }
+  },
+
+  {
+    "slug": "child-pugh",
+    "descricao": "Todos os cinco parâmetros no melhor estrato: 5 pontos, classe A",
+    "entrada": { "bilirrubina": 1, "albumina": 1, "inr": 1, "ascite": 1, "encefalopatia": 1 },
+    "esperado": { "valor": 5, "rotulo": "Classe A" }
+  },
+  {
+    "slug": "child-pugh",
+    "descricao": "Todos no pior estrato: 15 pontos, classe C",
+    "entrada": { "bilirrubina": 3, "albumina": 3, "inr": 3, "ascite": 3, "encefalopatia": 3 },
+    "esperado": { "valor": 15, "rotulo": "Classe C" }
+  },
+  {
+    "slug": "child-pugh",
+    "descricao": "Todos no estrato intermediário: 10 pontos",
+    "entrada": { "bilirrubina": 2, "albumina": 2, "inr": 2, "ascite": 2, "encefalopatia": 2 },
+    "esperado": { "valor": 10 }
+  },
+
+  {
+    "slug": "apgar",
+    "descricao": "Recém-nascido vigoroso no primeiro minuto: 2 em cada item = 10",
+    "entrada": { "momento": "min1", "fc": 2, "respiracao": 2, "tonus": 2, "irritabilidade": 2, "cor": 2 },
+    "esperado": { "valor": 10 }
+  },
+  {
+    "slug": "apgar",
+    "descricao": "Ausência de resposta em todos os itens: 0",
+    "entrada": { "momento": "min1", "fc": 0, "respiracao": 0, "tonus": 0, "irritabilidade": 0, "cor": 0 },
+    "esperado": { "valor": 0 }
+  },
+
+  {
+    "slug": "qsofa",
+    "descricao": "Infecção suspeita com os três critérios presentes",
+    "entrada": { "infeccao": "sim", "fr": 1, "mental": 1, "pas": 1 },
+    "esperado": { "valor": 3 }
+  },
+  {
+    "slug": "qsofa",
+    "descricao": "Infecção suspeita sem nenhum critério",
+    "entrada": { "infeccao": "sim", "fr": 0, "mental": 0, "pas": 0 },
+    "esperado": { "valor": 0 }
+  },
+
+  {
+    "slug": "anion-gap",
+    "descricao": "Na 140, Cl 100, HCO3 24: 140 - (100 + 24) = 16",
+    "entrada": { "sodio": 140, "cloro": 100, "bicarbonato": 24 },
+    "esperado": { "valor": 16, "tolerancia": 0.1 }
+  },
+  {
+    "slug": "anion-gap",
+    "descricao": "Na 135, Cl 110, HCO3 15: 135 - 125 = 10, dentro da faixa normal",
+    "entrada": { "sodio": 135, "cloro": 110, "bicarbonato": 15 },
+    "esperado": { "valor": 10, "tolerancia": 0.1 }
+  },
+
+  {
+    "slug": "calcio-corrigido",
+    "descricao": "Cálcio 8,0 com albumina 2,0: 8,0 + 0,8 × (4 - 2) = 9,6",
+    "entrada": { "calcio": 8.0, "albumina": 2.0 },
+    "esperado": { "valor": 9.6, "tolerancia": 0.05 }
+  },
+  {
+    "slug": "calcio-corrigido",
+    "descricao": "Albumina normal (4,0): o cálcio não muda",
+    "entrada": { "calcio": 9.0, "albumina": 4.0 },
+    "esperado": { "valor": 9.0, "tolerancia": 0.05 }
+  },
+
+  {
+    "slug": "sodio-corrigido",
+    "descricao": "Na 130 com glicemia 600: 130 + 1,6 × (600 - 100)/100 = 138",
+    "entrada": { "sodio": 130, "glicemia": 600 },
+    "esperado": { "valor": 138, "tolerancia": 0.15 }
+  },
+
+  {
+    "slug": "superficie-corporal",
+    "descricao": "70 kg e 175 cm por Mosteller: raiz de (175 × 70 / 3600) = 1,84 m²",
+    "entrada": { "peso": 70, "altura": 175 },
+    "esperado": { "valor": 1.84, "tolerancia": 0.01 }
+  },
+
+  {
+    "slug": "cockcroft-gault",
+    "descricao": "Homem de 60 anos, 70 kg, creatinina 1,0: (140-60) × 70 / (72 × 1,0) = 77,8",
+    "entrada": { "idade": 60, "sexo": "M", "peso": 70, "creatinina": 1.0 },
+    "esperado": { "valor": 77.8, "tolerancia": 1 }
+  },
+  {
+    "slug": "cockcroft-gault",
+    "descricao": "Mesma paciente, sexo feminino: aplica o fator 0,85 = 66,1",
+    "entrada": { "idade": 60, "sexo": "F", "peso": 70, "creatinina": 1.0 },
+    "esperado": { "valor": 66.1, "tolerancia": 1 }
+  },
+
+  {
+    "slug": "tfg-ckd-epi",
+    "descricao": "Homem de 60 anos com creatinina 1,0 mg/dL: cerca de 86 mL/min/1,73 m²",
+    "entrada": { "creatinina": 1.0, "idade": 60, "sexo": "M" },
+    "esperado": { "valor": 86, "tolerancia": 1, "rotulo": "Estágio G2" }
+  },
+  {
+    "slug": "tfg-ckd-epi",
+    "descricao": "Creatinina 3,0 em homem de 60 anos: filtração gravemente reduzida",
+    "entrada": { "creatinina": 3.0, "idade": 60, "sexo": "M" },
+    "esperado": { "valor": 23, "tolerancia": 2, "rotulo": "Estágio G4" }
+  },
+
+  {
+    "slug": "imc",
+    "descricao": "70 kg e 175 cm: 70 / 1,75² = 22,9",
+    "entrada": { "peso": 70, "altura": 175 },
+    "esperado": { "valor": 22.9, "tolerancia": 0.1, "rotulo": "Eutrofia" }
+  },
+  {
+    "slug": "imc",
+    "descricao": "100 kg e 170 cm: 34,6, obesidade grau I",
+    "entrada": { "peso": 100, "altura": 170 },
+    "esperado": { "valor": 34.6, "tolerancia": 0.1 }
+  },
+
+  {
+    "slug": "qtc",
+    "descricao": "QT 400 ms com FC 60 bpm (RR = 1 s): Bazett devolve o próprio QT",
+    "entrada": { "modo": "fc", "qt": 400, "fc": 60, "sexo": "M" },
+    "esperado": { "valor": 400, "tolerancia": 1 }
+  }
+]

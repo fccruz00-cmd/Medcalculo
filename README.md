@@ -19,9 +19,22 @@ npm run typecheck  # tsc --noEmit
 npm test           # regenera o índice, confere tipos e roda o teste de fumaça
 ```
 
-O teste de fumaça (`scripts/smoke-test.mjs`) valida os metadados de todas as
-calculadoras e executa `compute` de cada uma sob várias combinações de respostas,
-garantindo que nenhuma lance exceção nem devolva `NaN`.
+`npm test` encadeia três verificações, que respondem a perguntas diferentes:
+
+| Script | Pergunta |
+| --- | --- |
+| `smoke-test.mjs` | `compute` **quebra**? Executa 14 combinações por calculadora, falhando em exceção, `NaN` ou interpretação vazia. |
+| `golden-test.mjs` | `compute` está **certa**? Confere `tests/casos-clinicos.json`, com entradas e resultados conferidos à mão contra a definição do instrumento. |
+| `regression-test.mjs` | `compute` **mudou**? Compara 756 cenários com o instantâneo em `tests/instantaneos.json`. |
+
+O de regressão é o que impede o pior defeito de um instrumento clínico: uma
+pontuação que passa a responder outra coisa sem quebrar nada. Quando a mudança
+for intencional, rode `npm run instantaneo` e **leia o diff** — cada linha
+alterada é uma pontuação que mudou.
+
+Há ainda `npm run test:referencias`, que confere cada link do PubMed contra a
+API do NCBI comparando título, autor, ano e periódico com o texto da citação.
+Precisa de rede, por isso fica fora do `npm test`.
 
 ## Publicação
 

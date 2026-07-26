@@ -14,6 +14,19 @@ O teste de fumaça preenche os campos de várias formas e executa `compute`,
 falhando se alguma combinação lançar exceção, devolver `NaN` ou ficar sem
 interpretação.
 
+Ao adicionar uma calculadora, faça mais duas coisas:
+
+1. **Escreva ao menos dois casos** em `tests/casos-clinicos.json`, com a conta
+   conferida à mão: em geral o mínimo e o máximo do escore, ou um exemplo
+   publicado no artigo original. É o único teste que verifica se o resultado
+   está certo, e não apenas se não quebrou.
+2. **Rode `npm run instantaneo`** para incluir a calculadora nova no teste de
+   regressão, e confira o diff: só deve aparecer o slug que você acabou de
+   criar. Se outro mudou, você alterou algo sem querer.
+
+E rode `npm run test:referencias` para conferir os PMIDs contra o PubMed.
+Errar um dígito é fácil e passa ileso por revisão de texto.
+
 ## Esqueleto obrigatório
 
 ```ts
