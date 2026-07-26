@@ -171,6 +171,8 @@ podem ser usados na fórmula.`,
     bio: 'Hepatologista norte-americano, professor da University of Texas Southwestern Medical Center e uma das principais referências em doença hepática alcoólica.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

@@ -186,6 +186,8 @@ Exemplo: AST 80 U/L, limite superior 40 U/L e plaquetas 150 ×10⁹/L
     bio: 'Hepatologista de Singapura; desenvolveu o índice durante estágio de pesquisa na University of Michigan, com o objetivo de reduzir a necessidade de biópsia hepática na hepatite C crônica.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

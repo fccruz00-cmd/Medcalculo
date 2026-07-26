@@ -280,6 +280,8 @@ base > 5 mEq/L e sequestro > 4 L (sem o critério de PaO₂).`,
     bio: 'Cirurgião britânico radicado nos Estados Unidos, professor da New York University e uma das principais referências do século XX no manejo cirúrgico da pancreatite aguda.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

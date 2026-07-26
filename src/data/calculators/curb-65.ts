@@ -163,6 +163,8 @@ B - PAS < 90 mmHg ou PAD ≤ 60 mmHg
     bio: 'Pneumologista britânico do Nottingham University Hospitals NHS Trust, coordenador das diretrizes de pneumonia da British Thoracic Society.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

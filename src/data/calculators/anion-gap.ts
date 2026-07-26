@@ -261,6 +261,8 @@ pCO₂ = 1,5 × HCO₃⁻ + 8 (± 2 mmHg)`,
   evidence:
     'O uso clínico sistemático do ânion gap foi consolidado por Emmett e Narins em 1977, em revisão que analisou as causas de elevação e de redução do gap e propôs a faixa de referência de 12 ± 4 mEq/L usada por décadas. Com a substituição dos métodos de dosagem de cloro por eletrodos íon-seletivos, a faixa de normalidade caiu para cerca de 3 a 11 mEq/L, como revisto por Kraut e Madias em 2007: mudança que continua sendo fonte frequente de erro de interpretação à beira do leito. A correção pela albumina foi quantificada por Figge e colaboradores em 1998: cada grama por decilitro de albumina abaixo do normal reduz o ânion gap medido em aproximadamente 2,5 mEq/L, o que explica por que pacientes críticos hipoalbuminêmicos podem ter acidose orgânica significativa com gap aparentemente normal.',
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation: 'Emmett M, Narins RG. Clinical use of the anion gap. Medicine (Baltimore). 1977;56(1):38-54.',

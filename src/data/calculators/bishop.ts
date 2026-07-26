@@ -188,6 +188,8 @@ Interpretação:
     bio: 'Obstetra norte-americano da Pennsylvania Hospital, na Filadélfia. Publicou o índice de favorabilidade cervical em 1964, ainda hoje o padrão para avaliar o colo antes da indução.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation: 'Bishop EH. Pelvic scoring for elective induction. Obstet Gynecol. 1964;24:266-8.',

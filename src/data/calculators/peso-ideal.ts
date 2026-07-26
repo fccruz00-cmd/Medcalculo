@@ -205,6 +205,8 @@ Volume corrente protetor = 6 mL/kg de peso predito`,
     bio: 'Farmacêutico norte-americano que propôs a equação em 1974, em um artigo sobre a dose de gentamicina, para separar o peso magro do peso total no ajuste de antibióticos.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

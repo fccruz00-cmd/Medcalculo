@@ -195,6 +195,8 @@ TFG absoluta (mL/min) = TFG (mL/min/1,73 m²) × SC ÷ 1,73`,
     bio: 'Autor da simplificação publicada em 1987 no New England Journal of Medicine, hoje a fórmula de superfície corporal mais usada em oncologia.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

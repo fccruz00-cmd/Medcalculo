@@ -179,6 +179,8 @@ G1 ≥ 90 · G2 60-89 · G3a 45-59 · G3b 30-44 · G4 15-29 · G5 < 15`,
     bio: 'Nefrologistas do Tufts Medical Center, em Boston, responsáveis pelo desenvolvimento das equações MDRD e CKD-EPI.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

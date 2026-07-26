@@ -162,6 +162,8 @@ Aplica-se apenas a trauma contuso.`,
     bio: 'Emergencistas da Universidade da Califórnia em Los Angeles (UCLA), coordenadores do National Emergency X-Radiography Utilization Study (NEXUS).',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

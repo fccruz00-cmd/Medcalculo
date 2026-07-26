@@ -203,6 +203,8 @@ GAD-2 = itens 1 + 2 (0 a 6), com corte de 3 pontos.`,
     bio: 'Mesmo grupo que desenvolveu o PRIME-MD e o Patient Health Questionnaire, ao qual o GAD-7 é habitualmente anexado. O instrumento é de uso livre.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

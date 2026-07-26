@@ -181,6 +181,8 @@ Interpretação dicotomizada:
     bio: 'Hematologista canadense, professor e chefe do Departamento de Medicina da Universidade de Ottawa, autor dos escores de probabilidade pré-teste para TVP e para tromboembolismo pulmonar.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

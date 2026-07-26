@@ -102,6 +102,15 @@ contínua) como modelos.
 - `details`: valores secundários que o clínico quer ver (mortalidade estimada,
   subescores, faixa de referência).
 
+## Status do conteúdo
+
+- `updatedAt`: data ISO em que o conteúdo foi escrito ou editado. Atualize ao
+  mexer em pontuação, faixas ou conduta.
+- `clinicalReview`: preencha **apenas** quando um profissional de saúde
+  habilitado tiver conferido a calculadora contra a fonte primária, com nome,
+  registro e data. Enquanto o campo estiver ausente, a página avisa o usuário
+  de que a revisão está pendente, que é a informação honesta.
+
 ## Números precisam estar certos
 
 Confira a pontuação item a item contra o artigo original antes de escrever.

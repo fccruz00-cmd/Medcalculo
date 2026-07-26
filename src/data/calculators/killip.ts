@@ -184,6 +184,8 @@ Classe IV - choque cardiogênico (PAS < 90 mmHg com hipoperfusão): mortalidade 
     bio: 'Cardiologistas do New York Hospital-Cornell Medical Center, pioneiros na organização das unidades coronarianas nos anos 1960.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

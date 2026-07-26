@@ -237,6 +237,8 @@ crupe grave.`,
     bio: 'Pediatra norte-americano que, com E. K. Cotton e J. G. Brooks, descreveu o escore em 1978 no ensaio clínico que estabeleceu a eficácia da adrenalina racêmica nebulizada no crupe.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

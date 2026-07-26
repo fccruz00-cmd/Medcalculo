@@ -383,6 +383,8 @@ farmacoterapia e de cirurgia bariátrica.`,
     bio: 'Matemático e estatístico belga que descreveu o índice peso/altura² em 1832, no contexto de seus estudos sobre o "homem médio". O termo "índice de massa corporal" foi cunhado por Ancel Keys em 1972.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

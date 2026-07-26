@@ -161,6 +161,8 @@ Saturação de oxigênio < 90%
     bio: 'Pneumologista do Hospital Ramón y Cajal, em Madri, pesquisador do registro RIETE e uma das principais referências em estratificação prognóstica do tromboembolismo pulmonar.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

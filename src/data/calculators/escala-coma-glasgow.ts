@@ -229,6 +229,8 @@ GCS-P = Total − escore de reatividade pupilar
     bio: 'Neurocirurgiões do Instituto de Ciências Neurológicas de Glasgow, na Escócia, que propuseram a escala em 1974 e o Glasgow Outcome Scale em 1975.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

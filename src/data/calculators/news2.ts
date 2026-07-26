@@ -296,6 +296,8 @@ RESPOSTA CLÍNICA
     bio: 'Grupo de trabalho coordenado pelo Royal College of Physicians, com participação da Royal College of Nursing e do NHS England, responsável pelo NEWS (2012) e pela revisão NEWS2 (2017).',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

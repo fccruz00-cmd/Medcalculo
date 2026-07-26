@@ -448,6 +448,8 @@ Faixas de gravidade convencionadas:
     bio: 'Neurologistas norte-americanos ligados aos ensaios do National Institute of Neurological Disorders and Stroke (NINDS), que desenvolveram a escala em 1989 para uso em ensaios clínicos de AVC agudo.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

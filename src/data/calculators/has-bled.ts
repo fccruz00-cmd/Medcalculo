@@ -217,6 +217,8 @@ Interpretação: 0 a 1 risco baixo · 2 risco intermediário · ≥ 3 risco alto
     bio: 'Cardiologistas do Maastricht University Medical Centre (Holanda) e da Universidade de Birmingham (Reino Unido), autores do escore a partir do Euro Heart Survey on Atrial Fibrillation.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

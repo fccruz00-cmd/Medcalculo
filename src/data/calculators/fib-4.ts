@@ -216,6 +216,8 @@ Hepatites virais (coorte original):
     bio: 'Hepatologista da Virginia Commonwealth University, nos Estados Unidos, que derivou o índice a partir da coorte do ensaio APRICOT em pacientes coinfectados por HIV e hepatite C.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

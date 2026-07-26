@@ -198,6 +198,8 @@ Passo 3 - interprete:
     bio: 'Grupo de trabalho da International Society on Thrombosis and Haemostasis que padronizou a definição e os critérios laboratoriais de coagulação intravascular disseminada em 2001.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

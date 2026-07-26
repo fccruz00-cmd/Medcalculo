@@ -239,6 +239,8 @@ Dose padrão (cerca de 14 g de álcool puro):
     bio: 'Pesquisadoras do VA Puget Sound Health Care System e da Universidade de Washington, em Seattle, responsáveis pela validação do AUDIT-C em homens (1998) e em mulheres (2003). O AUDIT original foi desenvolvido por um grupo colaborativo da Organização Mundial da Saúde.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

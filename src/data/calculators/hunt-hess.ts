@@ -198,6 +198,8 @@ Modificador do artigo original: doença sistêmica grave (hipertensão arterial 
     bio: 'Neurocirurgiões do Ohio State University Hospital, em Columbus, que publicaram a classificação em 1968 no Journal of Neurosurgery.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

@@ -244,6 +244,8 @@ O resultado é expresso em mL/min, sem normalização para superfície corporal.
     bio: 'Médicos canadenses; Cockcroft, pneumologista, e Gault, nefrologista, publicaram a equação em 1976 quando trabalhavam no Royal Victoria Hospital e no Queen Mary Veterans Hospital, em Montreal.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

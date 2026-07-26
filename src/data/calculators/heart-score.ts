@@ -215,6 +215,8 @@ Faixas: 0 a 3 risco baixo · 4 a 6 risco moderado · 7 a 10 risco alto`,
     bio: 'Emergencistas e cardiologistas holandeses, do Erasmus MC de Roterdã e do Hospital Universitário de Utrecht, autores da derivação e da validação prospectiva do escore.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

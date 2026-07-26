@@ -146,6 +146,8 @@ Nenhum critério presente → radiografia dispensável.`,
     bio: 'Emergencista canadense, professor da Universidade de Ottawa e autor das regras de Ottawa para tornozelo e joelho, da regra canadense para tomografia de crânio e da Canadian C-Spine Rule.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

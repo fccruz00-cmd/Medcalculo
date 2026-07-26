@@ -237,6 +237,8 @@ A = 5 a 6 pontos · B = 7 a 9 pontos · C = 10 a 15 pontos`,
     bio: 'Child e Turcotte eram cirurgiões da Universidade de Michigan e propuseram a classificação em 1964 para prever a tolerância à cirurgia de derivação portossistêmica. Pugh e colaboradores, do King’s College Hospital em Londres, publicaram em 1973 a modificação que substituiu o estado nutricional pelo tempo de protrombina.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

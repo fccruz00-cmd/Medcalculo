@@ -228,6 +228,8 @@ Limiar usado pelos ensaios AVERT e CASSINI e pelas diretrizes da ASCO: ≥ 2 pon
     bio: 'Oncologista norte-americano da Cleveland Clinic, referência em trombose associada ao câncer, que derivou o modelo em 2008 quando estava na Universidade de Rochester.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

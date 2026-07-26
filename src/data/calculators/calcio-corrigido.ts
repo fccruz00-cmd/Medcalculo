@@ -253,6 +253,8 @@ Faixas do cálcio corrigido:
     bio: 'Bioquímico clínico britânico da Universidade de Leeds, autor do estudo de 1973 que derivou a correção do cálcio pela albumina.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

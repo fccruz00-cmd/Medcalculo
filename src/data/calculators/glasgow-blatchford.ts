@@ -287,6 +287,8 @@ INTERPRETAÇÃO
     bio: 'Médico de saúde pública escocês, do Greater Glasgow Health Board, que derivou o escore a partir de auditoria populacional das internações por hemorragia digestiva alta na região oeste da Escócia.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

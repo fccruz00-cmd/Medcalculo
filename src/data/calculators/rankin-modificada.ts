@@ -204,6 +204,8 @@ mRS 3 a 5 - dependência`,
     bio: 'Rankin descreveu a escala em 1957 no Stobhill Hospital, em Glasgow. O grupo de van Swieten, em Roterdã, publicou em 1988 a versão modificada de sete níveis usada até hoje.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

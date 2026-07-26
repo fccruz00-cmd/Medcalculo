@@ -216,6 +216,8 @@ Interpretação: 0 a 3 = probabilidade baixa · 4 a 5 = intermediária · 6 a 8 
     bio: 'Hematologista da McMaster University, em Hamilton, no Canadá, referência mundial em trombocitopenia induzida por heparina e autor do sistema 4Ts.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

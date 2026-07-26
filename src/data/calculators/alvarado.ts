@@ -190,6 +190,8 @@ Faixas:
     bio: 'Cirurgião colombiano; publicou o escore em 1986, no Elmhurst Hospital Center, em Nova York, com o objetivo de padronizar o diagnóstico precoce da apendicite aguda.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

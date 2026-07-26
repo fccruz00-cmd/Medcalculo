@@ -199,6 +199,8 @@ Faixas de risco:
     bio: 'Neurologistas vasculares, Johnston, então na Universidade da Califórnia em São Francisco, e Rothwell, da Universidade de Oxford, responsáveis pelos escores da Califórnia e ABCD, unificados no ABCD² em 2007.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

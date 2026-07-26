@@ -281,6 +281,8 @@ Osmolalidade efetiva (tonicidade) = 2 × Na⁺ + glicemia ÷ 18`,
     bio: 'Nefrologistas norte-americanos, autores do artigo de 1976 no JAMA que sistematizou o uso conjunto do gap aniônico e do gap osmolar na avaliação de distúrbios metabólicos e intoxicações.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation: 'Smithline N, Gardner KD Jr. Gaps: anionic and osmolal. JAMA. 1976;236(14):1594-7.',

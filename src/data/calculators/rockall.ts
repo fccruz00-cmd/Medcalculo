@@ -319,6 +319,8 @@ INTERPRETAÇÃO DO ESCORE COMPLETO
     bio: 'Cirurgião britânico que coordenou, junto ao National Audit of Acute Upper Gastrointestinal Haemorrhage, a auditoria nacional que deu origem ao escore.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

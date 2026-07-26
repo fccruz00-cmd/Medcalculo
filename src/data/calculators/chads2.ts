@@ -163,6 +163,8 @@ Taxa ajustada de AVC por 100 pacientes-ano, sem anticoagulação (NRAF, 2001):
     bio: 'Internista e pesquisador da Washington University School of Medicine, em St. Louis, dedicado à epidemiologia da anticoagulação e da fibrilação atrial.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

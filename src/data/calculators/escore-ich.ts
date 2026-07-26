@@ -188,6 +188,8 @@ Mortalidade em 30 dias na coorte de derivação:
     bio: 'Neurologista intensivista da Universidade da Califórnia em São Francisco, referência em neurointensivismo e em prognóstico da hemorragia intracerebral.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

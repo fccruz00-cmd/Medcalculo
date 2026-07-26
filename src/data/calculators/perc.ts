@@ -198,6 +198,8 @@ Qualquer critério presente → PERC positivo → seguir o algoritmo com D-díme
     bio: 'Emergencista norte-americano, professor de medicina de emergência, referência em pesquisa clínica sobre tromboembolismo pulmonar no pronto-socorro.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

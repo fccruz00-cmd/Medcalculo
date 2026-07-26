@@ -258,6 +258,8 @@ deprimido (item 2) ou anedonia (item 1).`,
     bio: 'Autores do PRIME-MD e do Patient Health Questionnaire. Spitzer foi psiquiatra da Universidade Columbia e um dos principais responsáveis pelo DSM-III; Kroenke é internista da Universidade de Indiana. O instrumento é de uso livre.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

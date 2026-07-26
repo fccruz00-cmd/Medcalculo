@@ -171,6 +171,8 @@ Choque séptico = sepse + vasopressor para PAM ≥ 65 mmHg + lactato > 2 mmol/L 
     bio: 'Pneumologista e intensivista norte-americano, presidente da conferência de consenso ACCP/SCCM de 1991 que criou os conceitos de SIRS, sepse e choque séptico.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

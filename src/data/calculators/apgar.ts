@@ -219,6 +219,8 @@ repita a cada 5 minutos até os 20 minutos de vida.`,
     bio: 'Anestesiologista norte-americana do Columbia-Presbyterian Medical Center, em Nova York. Publicou o escore em 1953 e é considerada uma das fundadoras da neonatologia moderna.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

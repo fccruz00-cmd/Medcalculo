@@ -195,6 +195,41 @@ export default async function CalculatorPage({ params }: PageProps) {
             </ol>
           </Section>
 
+          <Section title="Status do conteúdo">
+            <dl className="grid gap-4 sm:grid-cols-2">
+              <div>
+                <dt className="text-xs font-bold tracking-wide text-ink-500 uppercase">
+                  Conteúdo escrito em
+                </dt>
+                <dd className="mt-1 text-[15px] text-ink-800">
+                  {calc.updatedAt ? formatarData(calc.updatedAt) : 'não informado'}
+                </dd>
+              </div>
+              <div>
+                <dt className="text-xs font-bold tracking-wide text-ink-500 uppercase">
+                  Revisão por profissional de saúde
+                </dt>
+                {calc.clinicalReview ? (
+                  <dd className="mt-1 text-[15px] text-ink-800">
+                    {calc.clinicalReview.by}, em {formatarData(calc.clinicalReview.at)}
+                  </dd>
+                ) : (
+                  <dd className="mt-1 flex items-center gap-1.5 text-[15px] font-semibold text-amber-700">
+                    <AlertIcon className="h-4 w-4 shrink-0" />
+                    Pendente
+                  </dd>
+                )}
+              </div>
+            </dl>
+            {!calc.clinicalReview && (
+              <p className="mt-3 text-[14px] leading-relaxed text-ink-600">
+                Esta calculadora foi implementada a partir dos artigos citados acima, mas ainda não
+                passou por revisão de um profissional de saúde habilitado. Confira a pontuação
+                contra a fonte primária antes de usar o resultado em decisão clínica.
+              </p>
+            )}
+          </Section>
+
           <p className="mt-8 rounded-md border border-ink-200 bg-white p-4 text-[13px] leading-relaxed text-ink-500">
             <strong className="text-ink-700">Aviso:</strong> este resultado é uma estimativa
             baseada na literatura citada e não substitui a avaliação clínica individualizada.
@@ -263,6 +298,18 @@ function Breadcrumbs({ calc }: { calc: { title: string; specialties: string[] } 
       </div>
     </nav>
   );
+}
+
+/** Data ISO no formato longo brasileiro, sem depender do fuso do servidor. */
+function formatarData(iso: string): string {
+  const [ano, mes, dia] = iso.split('-').map(Number);
+  if (!ano || !mes || !dia) return iso;
+  return new Date(Date.UTC(ano, mes - 1, dia)).toLocaleDateString('pt-BR', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {

@@ -241,6 +241,8 @@ Sódio e creatinina podem estar em qualquer unidade, desde que a mesma unidade s
     bio: 'Nefrologista que descreveu o teste da fração de excreção de sódio em 1976, no JAMA, como método para diferenciar as causas de insuficiência renal aguda.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

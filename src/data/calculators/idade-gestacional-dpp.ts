@@ -323,6 +323,8 @@ Pós-termo - 42s0d ou mais`,
     bio: 'Obstetra alemão, professor em Heidelberg. A regra que leva seu nome foi divulgada em seu tratado de obstetrícia de 1812 e é usada até hoje para estimar a data provável do parto.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

@@ -194,4 +194,20 @@ export interface Calculator {
   references: Reference[];
   /** Destaca na página inicial. */
   popular?: boolean;
+  /** Data (ISO) em que o conteúdo foi escrito ou editado pela última vez. */
+  updatedAt?: string;
+  /**
+   * Revisão por profissional de saúde habilitado.
+   *
+   * A ausência do campo significa que a calculadora **ainda não foi revisada**,
+   * e a página diz isso ao usuário. Diretrizes mudam e conteúdo clínico
+   * envelhece: sem registro de quem conferiu e quando, não há como saber o que
+   * está desatualizado.
+   */
+  clinicalReview?: {
+    /** Nome e registro profissional de quem revisou. */
+    by: string;
+    /** Data da revisão, em ISO. */
+    at: string;
+  };
 }

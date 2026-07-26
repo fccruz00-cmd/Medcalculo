@@ -426,6 +426,8 @@ Faixas usadas pelo ACCP: 0 = risco muito baixo · 1 a 2 = baixo · 3 a 4 = moder
     bio: 'Cirurgião vascular norte-americano, professor emérito da Northwestern University, em Chicago, que desenvolveu o modelo de avaliação de risco de tromboembolismo venoso que leva seu nome.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

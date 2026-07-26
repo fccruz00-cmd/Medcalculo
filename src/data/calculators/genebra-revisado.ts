@@ -189,6 +189,8 @@ Interpretação dicotomizada:
     bio: 'Internistas e pesquisadores em tromboembolismo venoso; Le Gal desenvolveu o escore em Brest e Genebra e hoje é professor da Universidade de Ottawa.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

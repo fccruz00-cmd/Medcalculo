@@ -559,6 +559,8 @@ A-aDO₂ = FiO₂ × (760 − 47) − PaCO₂ / 0,8 − PaO₂, ao nível do mar
     bio: 'Intensivista norte-americano, professor da Universidade da Virgínia, criador da família de escores APACHE e um dos fundadores da avaliação padronizada de gravidade em terapia intensiva.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

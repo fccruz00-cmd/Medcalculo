@@ -188,6 +188,8 @@ aplicável a adultos. O item de idade é a modificação de McIsaac (1998).`,
     bio: 'Centor, internista norte-americano da University of Alabama at Birmingham, propôs os quatro critérios clínicos em 1981. McIsaac, médico de família da Universidade de Toronto, acrescentou o ajuste por idade e validou o escore em atenção primária.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

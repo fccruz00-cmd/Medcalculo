@@ -288,6 +288,8 @@ Limites de referência (AHA/ACCF/HRS, 2009):
     bio: 'Fisiologista britânico radicado nos Estados Unidos, professor da Universidade da Pensilvânia. Publicou em 1920 a análise das relações temporais do eletrocardiograma de onde saiu a fórmula que leva seu nome.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

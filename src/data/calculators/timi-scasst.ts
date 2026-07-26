@@ -190,6 +190,8 @@ Desfecho composto em 14 dias (morte, IAM ou revascularização urgente):
     bio: 'Cardiologista do Brigham and Women’s Hospital e professor da Harvard Medical School, membro do grupo TIMI (Thrombolysis in Myocardial Infarction).',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

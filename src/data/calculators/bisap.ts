@@ -167,6 +167,8 @@ Mortalidade hospitalar: 0 a 1 < 1% · 2 ≈ 2% · 3 ≈ 5 a 8% · 4 ≈ 13 a 19%
     bio: 'Gastroenterologistas do Brigham and Women’s Hospital, em Boston, dedicados à epidemiologia e ao manejo da pancreatite aguda.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

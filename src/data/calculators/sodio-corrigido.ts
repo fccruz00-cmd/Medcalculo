@@ -215,6 +215,8 @@ Osmolalidade efetiva (tonicidade) = 2 × sódio medido + glicemia ÷ 18`,
     bio: 'Katz derivou o fator 1,6 em 1973 a partir do cálculo dos deslocamentos de água entre compartimentos; Hillier e colaboradores mediram experimentalmente o fator 2,4 em 1999.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

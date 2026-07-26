@@ -295,6 +295,8 @@ RENAL - creatinina (mg/dL) ou diurese
     bio: 'Intensivista belga, professor da Université Libre de Bruxelles e do Hospital Erasme, um dos nomes mais influentes da medicina intensiva contemporânea e coordenador do grupo de trabalho que criou o SOFA.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

@@ -267,6 +267,8 @@ Unidades: creatinina e bilirrubina em mg/dL; sódio em mEq/L (= mmol/L)`,
     bio: 'Hepatologistas da Mayo Clinic. Kamath liderou a transformação do modelo de sobrevida pós-TIPS no escore MELD, e Kim conduziu tanto a incorporação do sódio (MELD-Na) quanto o desenvolvimento do MELD 3.0.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

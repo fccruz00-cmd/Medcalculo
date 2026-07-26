@@ -152,6 +152,8 @@ Atenção: o qSOFA não define sepse. Pelo Sepsis-3, sepse = infecção suspeita
     bio: 'Intensivista e emergencista da Universidade de Pittsburgh, autor principal do artigo de derivação do qSOFA dentro da terceira definição internacional de sepse e choque séptico.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

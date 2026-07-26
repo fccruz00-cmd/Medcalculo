@@ -177,6 +177,8 @@ const calculator: Calculator = {
     bio: 'Grupo de medicina interna e doença tromboembólica da Universidade de Pádua, na Itália, onde o modelo foi derivado e publicado em 2010.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

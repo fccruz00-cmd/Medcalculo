@@ -335,6 +335,8 @@ atingir 8 pontos ou mais, com reavaliação 1 hora após cada dose.`,
     bio: 'Pesquisadores da Divisão de Farmacologia Clínica da Universidade de Toronto e do Addiction Research Foundation, responsáveis pela revisão da CIWA-A que deu origem à CIWA-Ar.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

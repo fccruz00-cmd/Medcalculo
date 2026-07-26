@@ -190,6 +190,8 @@ Sc - Sexo feminino: 1`,
     bio: 'Cardiologista britânico, professor da Universidade de Liverpool e uma das principais referências mundiais em fibrilação atrial e tromboembolismo.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:

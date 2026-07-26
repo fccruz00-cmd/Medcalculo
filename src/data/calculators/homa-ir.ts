@@ -207,6 +207,8 @@ Pontos de corte do estudo BRAMS, em adultos brasileiros:
     bio: 'Endocrinologistas da Universidade de Oxford. Turner foi um dos idealizadores do UKPDS; ambos assinam o artigo de 1985 que descreveu o modelo HOMA.',
   },
 
+  updatedAt: '2026-07-26',
+
   references: [
     {
       citation:
