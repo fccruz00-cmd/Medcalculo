@@ -42,11 +42,11 @@ export default async function SpecialtyPage({ params }: PageProps) {
   return (
     <div className="container-page py-8">
       <nav aria-label="Trilha de navegação" className="flex items-center gap-1.5 text-[13px] text-ink-500">
-        <Link href="/" className="hover:text-brand-700 hover:underline">
+        <Link href="/" className="py-2.5 hover:text-brand-700 hover:underline">
           Início
         </Link>
         <ChevronRightIcon className="h-3.5 w-3.5 text-ink-300" />
-        <Link href="/especialidades" className="hover:text-brand-700 hover:underline">
+        <Link href="/especialidades" className="py-2.5 hover:text-brand-700 hover:underline">
           Especialidades
         </Link>
       </nav>

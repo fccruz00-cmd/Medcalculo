@@ -111,7 +111,9 @@ export default function HeaderSearch({ index, variant = 'header', autoFocus }: P
             'focus:border-brand-500 focus:ring-2 focus:ring-brand-200 focus:outline-none',
             isHero
               ? 'border-ink-200 py-4 pr-4 pl-12 text-base shadow-lg sm:text-lg'
-              : 'border-brand-700 py-2 pr-3 pl-9 text-sm',
+              : // py-3 no celular deixa o campo com 44px de altura; volta a
+                // py-2 no desktop, onde a barra tem 64px e o alvo é o cursor.
+                'border-brand-700 py-3 pr-3 pl-9 text-sm sm:py-2',
           )}
         />
       </div>

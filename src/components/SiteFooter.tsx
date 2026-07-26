@@ -25,22 +25,22 @@ export default function SiteFooter() {
             </h2>
             <ul className="mt-3 space-y-2 text-sm">
               <li>
-                <Link href="/calculadoras" className="hover:text-white hover:underline">
+                <Link href="/calculadoras" className="inline-block py-1 hover:text-white hover:underline">
                   Todas as calculadoras
                 </Link>
               </li>
               <li>
-                <Link href="/especialidades" className="hover:text-white hover:underline">
+                <Link href="/especialidades" className="inline-block py-1 hover:text-white hover:underline">
                   Especialidades
                 </Link>
               </li>
               <li>
-                <Link href="/buscar" className="hover:text-white hover:underline">
+                <Link href="/buscar" className="inline-block py-1 hover:text-white hover:underline">
                   Buscar
                 </Link>
               </li>
               <li>
-                <Link href="/sobre" className="hover:text-white hover:underline">
+                <Link href="/sobre" className="inline-block py-1 hover:text-white hover:underline">
                   Sobre o projeto
                 </Link>
               </li>
@@ -56,7 +56,7 @@ export default function SiteFooter() {
                 <li key={specialty.name}>
                   <Link
                     href={`/especialidades/${slugify(specialty.name)}`}
-                    className="hover:text-white hover:underline"
+                    className="inline-block py-1 hover:text-white hover:underline"
                   >
                     {specialty.name}
                   </Link>

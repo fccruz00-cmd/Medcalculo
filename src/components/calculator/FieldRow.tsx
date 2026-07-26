@@ -43,7 +43,9 @@ export default function FieldRow({ field, values, onChange, highlightMissing }: 
               onClick={() => setShowHelp((open) => !open)}
               aria-expanded={showHelp}
               aria-label={`Ajuda sobre ${field.label}`}
-              className="mt-0.5 shrink-0 rounded text-brand-500 hover:text-brand-700"
+              // -m-1 compensa o padding: a área de toque cresce para 24px sem
+              // deslocar o ícone em relação ao rótulo.
+              className="-m-1 shrink-0 rounded p-1 text-brand-500 hover:text-brand-700"
             >
               <InfoIcon className="h-4 w-4" />
             </button>
@@ -258,7 +260,9 @@ function NumberInput({
             <button
               type="button"
               onClick={() => setUseAlt((current) => !current)}
-              className="text-[12px] font-semibold text-brand-600 hover:text-brand-800 hover:underline"
+              // -my-1 compensa o padding, que existe só para o alvo de toque
+              // chegar a 24px sem afastar o botão do campo.
+              className="-my-1 py-1 text-[12px] font-semibold text-brand-600 hover:text-brand-800 hover:underline"
             >
               usar {useAlt ? field.unit : toggle.alt}
             </button>

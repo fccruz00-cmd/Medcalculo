@@ -18,7 +18,8 @@ export default function SiteHeader() {
       <div className="container-page flex h-16 items-center gap-4">
         <Link
           href="/"
-          className="shrink-0 text-xl font-bold tracking-tight text-white"
+          // O padding vertical amplia a área de toque sem mexer no layout.
+          className="shrink-0 py-2 text-xl font-bold tracking-tight text-white"
           aria-label="MedCálculo: página inicial"
         >
           Med<span className="text-brand-300">Cálculo</span>

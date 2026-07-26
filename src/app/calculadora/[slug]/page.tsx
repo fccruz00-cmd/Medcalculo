@@ -73,7 +73,7 @@ export default async function CalculatorPage({ params }: PageProps) {
                 <Link
                   key={specialty}
                   href={`/especialidades/${slugify(specialty)}`}
-                  className="rounded bg-brand-50 px-2 py-0.5 text-[11px] font-semibold text-brand-700 hover:bg-brand-100"
+                  className="rounded bg-brand-50 px-2 py-1.5 text-[11px] font-semibold text-brand-700 hover:bg-brand-100"
                 >
                   {specialty}
                 </Link>
@@ -239,12 +239,14 @@ function Breadcrumbs({ calc }: { calc: { title: string; specialties: string[] } 
       aria-label="Trilha de navegação"
       className="no-print border-b border-ink-200 bg-white"
     >
-      <div className="container-page flex items-center gap-1.5 overflow-x-auto py-2.5 text-[13px] whitespace-nowrap text-ink-500">
-        <Link href="/" className="hover:text-brand-700 hover:underline">
+      {/* py-2 nos links garante altura de toque de 32px, acima do mínimo de
+          24px da WCAG 2.5.8, sem alterar a altura visual da trilha. */}
+      <div className="container-page flex items-center gap-1.5 overflow-x-auto text-[13px] whitespace-nowrap text-ink-500">
+        <Link href="/" className="py-2.5 hover:text-brand-700 hover:underline">
           Início
         </Link>
         <ChevronRightIcon className="h-3.5 w-3.5 shrink-0 text-ink-300" />
-        <Link href="/calculadoras" className="hover:text-brand-700 hover:underline">
+        <Link href="/calculadoras" className="py-2.5 hover:text-brand-700 hover:underline">
           Calculadoras
         </Link>
         {specialty && (
@@ -252,7 +254,7 @@ function Breadcrumbs({ calc }: { calc: { title: string; specialties: string[] } 
             <ChevronRightIcon className="h-3.5 w-3.5 shrink-0 text-ink-300" />
             <Link
               href={`/especialidades/${slugify(specialty)}`}
-              className="hover:text-brand-700 hover:underline"
+              className="py-2.5 hover:text-brand-700 hover:underline"
             >
               {specialty}
             </Link>
