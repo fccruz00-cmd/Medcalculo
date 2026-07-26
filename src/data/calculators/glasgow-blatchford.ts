@@ -291,7 +291,7 @@ INTERPRETAÇÃO
     {
       citation:
         'Blatchford O, Murray WR, Blatchford M. A risk score to predict need for treatment for upper-gastrointestinal haemorrhage. Lancet. 2000;356(9238):1318-21.',
-      url: 'https://pubmed.ncbi.nlm.nih.gov/11036896/',
+      url: 'https://pubmed.ncbi.nlm.nih.gov/11073021/',
       primary: true,
     },
     {

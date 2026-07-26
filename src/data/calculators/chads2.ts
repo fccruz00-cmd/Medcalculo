@@ -183,7 +183,6 @@ Taxa ajustada de AVC por 100 pacientes-ano, sem anticoagulação (NRAF, 2001):
     {
       citation:
         'Magalhães LP, Figueiredo MJO, Cintra FD, et al. II Diretrizes Brasileiras de Fibrilação Atrial. Arq Bras Cardiol. 2016;106(4 Supl 2):1-22.',
-      url: 'https://pubmed.ncbi.nlm.nih.gov/27167175/',
     },
   ],
 };

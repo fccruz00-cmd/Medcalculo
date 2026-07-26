@@ -274,7 +274,7 @@ pCO₂ = 1,5 × HCO₃⁻ + 8 (± 2 mmHg)`,
     },
     {
       citation: 'Figge J, Jabor A, Kazda A, Fencl V. Anion gap and hypoalbuminemia. Crit Care Med. 1998;26(11):1807-10.',
-      url: 'https://pubmed.ncbi.nlm.nih.gov/9824069/',
+      url: 'https://pubmed.ncbi.nlm.nih.gov/9824071/',
     },
     {
       citation:

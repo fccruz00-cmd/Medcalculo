@@ -284,13 +284,13 @@ Osmolalidade efetiva (tonicidade) = 2 × Na⁺ + glicemia ÷ 18`,
   references: [
     {
       citation: 'Smithline N, Gardner KD Jr. Gaps: anionic and osmolal. JAMA. 1976;236(14):1594-7.',
-      url: 'https://pubmed.ncbi.nlm.nih.gov/989118/',
+      url: 'https://pubmed.ncbi.nlm.nih.gov/989132/',
       primary: true,
     },
     {
       citation:
         'Purssell RA, Pudek M, Brubacher J, Abu-Laban RB. Derivation and validation of a formula to calculate the contribution of ethanol to the osmolal gap. Ann Emerg Med. 2001;38(6):653-9.',
-      url: 'https://pubmed.ncbi.nlm.nih.gov/11719744/',
+      url: 'https://pubmed.ncbi.nlm.nih.gov/11719745/',
     },
     {
       citation:
