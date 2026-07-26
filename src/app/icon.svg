@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MedCálculo">
+  <rect width="64" height="64" rx="14" fill="#123b38" />
+  <!-- Cruz médica -->
+  <path d="M26 14h12v12h12v12H38v12H26V38H14V26h12z" fill="#ffffff" />
+  <!-- Teclas, sugerindo a calculadora -->
+  <circle cx="52" cy="52" r="3" fill="#71b3ad" />
+  <circle cx="42" cy="52" r="3" fill="#71b3ad" />
+  <circle cx="52" cy="42" r="3" fill="#71b3ad" />
+</svg>

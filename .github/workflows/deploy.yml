@@ -1,0 +1,71 @@
+name: Publicar no GitHub Pages
+
+on:
+  # Sem filtro de branch: o Pages publica a partir da branch padrão do
+  # repositório, então o workflow acompanha qualquer renomeação sem edição.
+  push:
+  # Permite republicar manualmente pela aba Actions.
+  workflow_dispatch:
+
+# Necessário para o deploy-pages autenticar sem token pessoal.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Uma publicação por vez; não cancela a que já está em andamento.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build e validação
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Validar catálogo
+        # Regenera o índice, confere a tipagem e executa compute de todas as
+        # calculadoras. Uma calculadora quebrada não chega ao ar.
+        run: npm test
+
+      - name: Build estático
+        env:
+          GITHUB_PAGES: 'true'
+          PAGES_BASE_PATH: /${{ github.event.repository.name }}
+          NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: npm run build
+
+      - name: Impedir que o Pages processe o diretório _next
+        run: touch out/.nojekyll
+
+      - uses: actions/configure-pages@v5
+        with:
+          # Ativa o GitHub Pages pela API na primeira execução, dispensando a
+          # configuração manual em Settings > Pages. Usa a permissão
+          # `pages: write` já declarada acima.
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    name: Publicar
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
